@@ -1,3 +1,4 @@
+# [*] Run Time Kali Linux
 import requests,sys,itertools,pathlib,argparse,socket,platform,gc
 from urllib.parse import urlparse
 from pprint import pprint
