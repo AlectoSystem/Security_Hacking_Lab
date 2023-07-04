@@ -5,7 +5,7 @@ from pprint import pprint
 class Gobuster:
 
       def __init__(self,target_url):
-
+          #[*] Prepare a word list and overwrite it.
           self.word_path = "wordlists"
           self.url = target_url
           self.cycle = itertools.cycle(r"/-\|")
