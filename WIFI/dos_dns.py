@@ -35,7 +35,7 @@ def main():
                 sys.exit()
 
         except TypeError:
-            sys.stdout.write(f"\n[#] Help_Command / ~% python {sys.argv[0]}\n")
+            sys.stdout.write(f"\n[#] Help_Command / ~% python {sys.argv[0]} -h\n")
             sys.exit()
         except KeyboardInterrupt:
             sys.stdout.write("\n[*] Stop_Process\n")
