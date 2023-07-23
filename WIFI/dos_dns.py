@@ -31,7 +31,7 @@ def main():
             if dns_attack.port_scan_dns() == True:
                 dns_attack.attack_dns()
             else:
-                sys.stdout.write("\n[!] Not_Open_Port < 53 / dns >\n")
+                sys.stdout.write("\n[!] Not_Open_Port < 53 / domain >\n")
                 sys.exit()
 
         except TypeError:
